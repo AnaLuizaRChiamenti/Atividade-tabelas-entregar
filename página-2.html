@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Tabela Pratica</title>
+    <style>
+
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atividade Prática - Tabelas HTML</h1>
+                <nav>
+                    <ul style="list-style: none">
+                    <li>
+                        <a href="página-1.html">Tabela 1</a>
+                    </li>
+                    <li>
+                        <a href="página-2.html">Tabela 2</a>
+                    </li>
+                    <li>
+                        <a href="página-3.html">Tabela 3</a>
+                    </li>
+                    </ul>
+                </nav>
+    </header>
+        <table>
+            <thead>
+                <tr>
+                    <td style="width: 800px; height: 100px;" colspan="2">TOPO</td>
+                </tr>
+            </thead>
+
+        <tbody>
+            <tr style="height: 500px;">
+                <td>MENU</td>
+                <td>CONTEÚDO</td>
+            </tr>
+        </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="height: 50px;">RODAPÉ</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
